@@ -1,7 +1,5 @@
 # WolfCafe 
 
-[![Frontend Tests](https://github.com/ncstate-csc-coursework/csc326-2026-spring-tp-204-2/actions/workflows/frontend-tests.yml/badge.svg)](https://github.com/ncstate-csc-coursework/csc326-2026-spring-tp-204-2/actions/workflows/frontend-tests.yml)
-
 
 ## Install Lombok
 Lombok is a library that lets us use annotations to automatically generate getters, setters, and constructors.  For Lombok to work in Eclipse (and other IDEs like IntelliJ or VS Code), you need to set up Lombok with the IDE in addition to including in the pom.xml file.
@@ -19,9 +17,6 @@ Update `application.properties` in `src/main/resources/` and `src/test/resources
 ### Set `app.jwt-secret`
 
 We will create a secret key that will be used for JWT authentication.  Think of a secret key phrase.  You'll want to encrypt it using SHA256 encryption.  You can use a tool like:  https://emn178.github.io/online-tools/sha256.html to generate the encrypted text.  Copy that into your `application.properties` file.
-
-## Setup
-The rest of the setup for WolfCafe is the same as for [CoffeeMaker](https://courses.csc.ncsu.edu/csc326/onboarding/setup/).
 
 
 ## User Roles
